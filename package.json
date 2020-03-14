@@ -1,0 +1,22 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "this is a simple profile website for developers designed with SASS and HTML",
+  "main": "main.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterchijioke/myPortfolio.git"
+  },
+  "author": "13thAlgorithm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterchijioke/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/peterchijioke/myPortfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
